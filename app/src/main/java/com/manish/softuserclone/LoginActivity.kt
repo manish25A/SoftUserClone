@@ -19,7 +19,6 @@ class LoginActivity : AppCompatActivity() {
         coventryImg = findViewById(R.id.coventryImg)
         etEmail =  findViewById(R.id.etEmail)
         etPassword =  findViewById(R.id.etPassword)
-        tvforrgetpass =  findViewById(R.id.tvforrgetpass)
         btnIdLogin =  findViewById(R.id.btnIdlogin)
         etSignup =  findViewById(R.id.etSignup)
         btnIdLogin.setOnClickListener {
