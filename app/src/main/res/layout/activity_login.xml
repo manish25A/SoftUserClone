@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/coventryImg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@drawable/download"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:height="50dp"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:hint="Enter Email Here" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:inputType="textPassword"
+        android:height="50dp"
+        android:gravity="center"
+        android:hint="Enter Password Here" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:id="@+id/tvforrgetpass"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#2A363B"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/btnIdlogin"
+        android:gravity="center"
+        android:background="#2A363B"
+        android:width="290dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="55dp"
+        />
+    <TextView
+        android:id="@+id/etSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Here? Sign Up"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textColor="#2A363B"
+        />
+</LinearLayout>
